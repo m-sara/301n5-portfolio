@@ -1,0 +1,19 @@
+* {
+  background-color: black;
+  color: white;
+  font-family: 'Old Standard TT';
+}
+
+/*a {
+  font-size: 12pt;
+}*/
+
+h1 {
+  font-size: 40pt;
+  font-variant: small-caps;
+  letter-spacing: 3px;
+}
+
+h2 {
+  /*font-style: italic;*/
+}
