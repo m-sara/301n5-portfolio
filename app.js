@@ -1,6 +1,7 @@
 'use strict';
 
 var projects = [];
+var projectView = {}
 
 function Project(proj) {
   this.title = proj.title;
@@ -11,3 +12,13 @@ function Project(proj) {
   this.url = proj.url;
   this.preview = proj.preview;
 }
+
+projectView.handleMainNav = function() {
+  $('.nav-bar').on('click', '.tab', function() {
+    $('.tab-content').hide();
+    $(`#${$(this).data('content')}`).show();
+  });
+  $('.nav-menu .tab:first').click();
+};
+
+projectView.handleMainNav();

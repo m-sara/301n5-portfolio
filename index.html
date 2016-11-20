@@ -5,18 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT|VT323" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Maithrika Sara Portfolio</title>
+    <title>Maithrika Sara's Portfolio</title>
   </head>
 
   <body>
 
-    <h1>Maithrika Sara</h1>
+    <header>
+      <h1>Maithrika Sara</h1>
+    </header>
+
+    <nav class="nav-bar">
+      <div class="icon-menu">
+      </div>
+
+      <ul>
+        <li class="tab" data-content="projects"><a href="#" class="icon-projects"> Projects</a></li>
+        <li class="tab" data-content="about"><a href="#" class="icon-about"> About</a></li>
+      </ul>
+    </nav>
     <hr><br>
 
-    <h2>Find me!</h2>
-    <a href="https://github.com/m-sara">Github</a>
-    <a href="https://www.linkedin.com/in/maithrikasara">LinkedIn</a>
+    <section id="projects" class="tab-content">
 
+    </section>
+
+    <section id="about" class="tab-content">
+      <h2>Find me!</h2>
+      <a href="https://github.com/m-sara">Github</a>
+      <a href="https://www.linkedin.com/in/maithrikasara">LinkedIn</a>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="app.js"></script>
   </body>
 </html>
